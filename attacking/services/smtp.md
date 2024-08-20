@@ -1,3 +1,7 @@
+---
+icon: envelope
+---
+
 # SMTP
 
 Check Mail Relay

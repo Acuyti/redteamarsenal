@@ -16,12 +16,12 @@
   * [Collection](attacking/windows-and-active-directory/collection.md)
 * [🕸️ Webservices](attacking/webservices/README.md)
   * [Fuzzing](attacking/webservices/fuzzing.md)
+* [Services](attacking/services/README.md)
+  * [SMTP](attacking/services/smtp.md)
 * [🔍 Host Discovery](attacking/host-discovery.md)
 * [Footprinting](attacking/footprinting.md)
 * [🪜 Pivoting & Portforwarding](attacking/pivoting-and-portforwarding.md)
 * [🛠️ OSINT](attacking/osint.md)
-* [Services](attacking/services/README.md)
-  * [SMTP](attacking/services/smtp.md)
 
 ## 🛡️ DEFENDING
 
