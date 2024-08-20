@@ -1,12 +1,13 @@
 ---
 description: >-
-  Welcome to my knowledge base, where I document my journey to becoming a
-  Certified Penetration Testing Specialist (CPTS).
+  These docs contain everything important that I learned down the road of my
+  info-sec career.
 ---
 
 # 💻 sudo sh -c "./RTA"
 
-In this space, I share insights, techniques, and lessons learned as I navigate the world of penetration testing and cybersecurity. You'll find a variety of topics covered, from practical methodologies to tools and best practices essential for effective red teaming.
+In these docs, I share insights, techniques, and lessons learned as I navigate the career in cybersecurity. If you have anything to add or would like to reach out, you can reach me on\
+Telegram([@acu1ty](https://t.me/acu1ty)) and Discord(binary.sh).
 
 <mark style="background-color:green;">I’m currently in the process of migrating my notes from Notion to this platform. Thank you for your patience as I bring this page to life!</mark>
 
