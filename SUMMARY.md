@@ -1,6 +1,6 @@
 # Table of contents
 
-* [💻 sudo sh -c "./RTA"](README.md)
+* [💻 sudo sh -c './RTA'](README.md)
 
 ## ⚔️ Attacking
 
