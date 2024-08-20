@@ -20,6 +20,7 @@
 * [🕸️ Webservices](attacking/webservices/README.md)
   * [Fuzzing](attacking/webservices/fuzzing.md)
 * [🔍 Host Discovery](attacking/host-discovery.md)
+* [Footprinting](attacking/footprinting.md)
 * [🪜 Pivoting & Portforwarding](attacking/pivoting-and-portforwarding.md)
 * [🛠️ OSINT](attacking/osint.md)
 
