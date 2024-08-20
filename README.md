@@ -1,15 +1,15 @@
 ---
 description: >-
   These docs contain everything important that I learned down the road of my
-  info-sec career.
+  offensive security career.
 ---
 
-# 💻 sudo sh -c "./RTA"
+# 💻 sudo sh -c './RTA'
 
 In these docs, I share insights, techniques, and lessons learned as I navigate my career in offensive security. If you have anything to add or would like to reach out, you can reach me on\
 Threema([VMC4BY69](https://threema.id/VMC4BY69)) and Discord(binary.sh).
 
-<mark style="background-color:green;">I’m currently in the process of migrating my notes from Notion to this platform. Thank you for your patience as I bring this page to life!</mark>
+<mark style="background-color:green;">I'm migrating my notes from Notion to this platform.</mark>\ <mark style="background-color:green;">Thank you for your patience as I bring this page to life!</mark>
 
 {% hint style="info" %}
 The knowledge shared in this resource is intended for educational and professional purposes only. It is crucial to use this information ethically and in compliance with all applicable laws and regulations.
