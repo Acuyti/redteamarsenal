@@ -12,8 +12,12 @@ Telegram([@acu1ty](https://t.me/acu1ty)) and Discord(binary.sh).
 <mark style="background-color:green;">I’m currently in the process of migrating my notes from Notion to this platform. Thank you for your patience as I bring this page to life!</mark>
 
 {% hint style="info" %}
-The knowledge shared in this resource is intended for educational and professional purposes only. It is crucial to use this information ethically and in compliance with all applicable laws and regulations. Any unauthorized or illegal use of these techniques is strictly prohibited and may result in severe legal consequences.
+The knowledge shared in this resource is intended for educational and professional purposes only. It is crucial to use this information ethically and in compliance with all applicable laws and regulations.
+
+Any unauthorized or illegal use of these techniques is strictly prohibited and may result in severe legal consequences.
 {% endhint %}
+
+IP-Addresses mentioned in my documentation are not associated with any real systems. These subnets are specified for documentation and testing purposes in [RFC 5737](https://datatracker.ietf.org/doc/html/rfc5737) by the [IETF](https://www.ietf.org/).
 
 ***
 
