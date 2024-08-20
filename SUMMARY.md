@@ -4,16 +4,16 @@
 
 ## ⚔️ Attacking
 
+* [🪟 Windows & Active Directory](attacking/windows-and-active-directory/README.md)
+  * [Execution](attacking/windows-and-active-directory/execution.md)
+  * [Privilege Escalation](attacking/windows-and-active-directory/privilege-escalation.md)
+  * [Collection](attacking/windows-and-active-directory/collection.md)
 * [🐧 Linux](attacking/linux/README.md)
   * [Reconnaissance](attacking/linux/reconnaissance.md)
   * [Privilege Escalation](attacking/linux/privilege-escalation.md)
   * [Lateral Movement](attacking/linux/lateral-movement.md)
   * [Collection](attacking/linux/collection.md)
   * [Command and Control](attacking/linux/command-and-control.md)
-* [🪟 Windows & Active Directory](attacking/windows-and-active-directory/README.md)
-  * [Execution](attacking/windows-and-active-directory/execution.md)
-  * [Privilege Escalation](attacking/windows-and-active-directory/privilege-escalation.md)
-  * [Collection](attacking/windows-and-active-directory/collection.md)
 * [🕸️ Webservices](attacking/webservices/README.md)
   * [Fuzzing](attacking/webservices/fuzzing.md)
 * [Services](attacking/services/README.md)
