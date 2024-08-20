@@ -20,6 +20,8 @@
 * [Footprinting](attacking/footprinting.md)
 * [🪜 Pivoting & Portforwarding](attacking/pivoting-and-portforwarding.md)
 * [🛠️ OSINT](attacking/osint.md)
+* [Services](attacking/services/README.md)
+  * [SMTP](attacking/services/smtp.md)
 
 ## 🛡️ DEFENDING
 
