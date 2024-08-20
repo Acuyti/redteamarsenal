@@ -6,7 +6,7 @@ description: >-
 
 # 💻 sudo sh -c "./RTA"
 
-In these docs, I share insights, techniques, and lessons learned as I navigate the career in cybersecurity. If you have anything to add or would like to reach out, you can reach me on\
+In these docs, I share insights, techniques, and lessons learned as I navigate my career in offensive security. If you have anything to add or would like to reach out, you can reach me on\
 Threema([VMC4BY69](https://threema.id/VMC4BY69)) and Discord(binary.sh).
 
 <mark style="background-color:green;">I’m currently in the process of migrating my notes from Notion to this platform. Thank you for your patience as I bring this page to life!</mark>
