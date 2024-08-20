@@ -1,9 +1,6 @@
 # Table of contents
 
 * [💻 sudo sh -c "./RTA"](README.md)
-* [Writeups](writeups/README.md)
-  * [HackTheBox](writeups/hackthebox.md)
-  * [TryHackMe](writeups/tryhackme.md)
 
 ## ⚔️ Attacking
 
@@ -27,6 +24,12 @@
 ## 🛡️ DEFENDING
 
 * [SSH](defending/ssh.md)
+
+## CTF
+
+* [Writeups](ctf/writeups/README.md)
+  * [HackTheBox](ctf/writeups/hackthebox.md)
+  * [TryHackMe](ctf/writeups/tryhackme.md)
 
 ## 💣 Payloads
 
