@@ -4,10 +4,9 @@ description: >-
   offensive security career.
 ---
 
-# 💻 sudo sh -c './RTA'
+# 💻 $ sudo init Red Team Arsenal
 
-In these docs, I share insights, techniques, and lessons learned as I navigate my career in offensive security. If you have anything to add or would like to reach out, you can reach me on\
-Threema([VMC4BY69](https://threema.id/VMC4BY69)) and Discord(binary.sh).
+Here, I provide insights, techniques, and lessons learned throughout my career in offensive security. These documents aim to enhance your understanding and skills in this field. If you have additional insights to share or wish to connect, you can reach me on Threema([VMC4BY69](https://threema.id/VMC4BY69)) and Discord(binary.sh).
 
 <mark style="background-color:green;">I'm migrating my notes from Notion to this platform.</mark>\ <mark style="background-color:green;">Thank you for your patience as I bring this page to life!</mark>
 
