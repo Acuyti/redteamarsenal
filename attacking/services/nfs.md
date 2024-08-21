@@ -1,5 +1,11 @@
 # NFS
 
+#### List all available NFS shares
+
+```
+showmount -e 203.0.113.5
+```
+
 Mount an NFS share
 
 ```
