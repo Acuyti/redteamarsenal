@@ -1,4 +1,13 @@
+---
+description: >-
+  NFS is a protocol commonly used in Unix and Linux systems to enable file
+  sharing across a network. It uses a client-server architecture, allowing
+  multiple computers to access shared files.
+---
+
 # NFS
+
+<mark style="background-color:red;">This chapter is in-progress.</mark>
 
 #### List all available NFS shares
 
