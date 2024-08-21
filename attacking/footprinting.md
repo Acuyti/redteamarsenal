@@ -29,6 +29,12 @@ for sub in $(cat /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-11000
 dnsenum --dnsserver 203.0.113.50 --enum -p 0 -s 0 -o subdomains.txt -f /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-110000.txt acuity.lab
 ```
 
+### SMB
+
+```
+smbclient -N -L //203.0.113.50
+```
+
 ### RDP
 
 ```bash
