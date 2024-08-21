@@ -1,9 +1,13 @@
-# MYSQL
+# MySQL
 
-Connect to a local mysql instance
+Connecting
 
 ```bash
+# Local service
 mysql -u acuity -pPASSWORDHEREWITHNOSPACE
+
+# Remote service
+mysql -u acuity -p -h <IP> -P 3306
 ```
 
 List all databases
