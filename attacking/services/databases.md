@@ -8,17 +8,57 @@ description: >-
 
 <mark style="color:red;background-color:yellow;">This chapter is in-progress.</mark>
 
-#### Database Management Systems
+<mark style="color:blue;">Check the index on the right to navigate this page more easily.</mark>
 
-[#mysql](databases.md#mysql "mention")
+## Database Management Systems
 
-[#microsoft-sql](databases.md#microsoft-sql "mention")
+### MySQL
 
-[#postgresql](databases.md#postgresql "mention")
+Connect to a MySQL server
 
-#### Tools
+```bash
+# Local service
+mysql -u acuity -pSuperStr00ng!
 
-[#sqlmap](databases.md#sqlmap "mention")
+# Remote service
+mysql -u acuity -p -h <IP> -P 3306
+```
+
+List all databases
+
+```sql
+show databases;
+```
+
+Select a database
+
+```sql
+use name_of_database;
+```
+
+List all tables in the active database
+
+```sql
+show tables;
+```
+
+List content of a table
+
+```sql
+# List all content
+select * from name_of_table;
+
+# Define a more specific selection
+select username, password from users where username = 'HTB';
+```
+
+### Microsoft SQL
+
+### PostgreSQL
+
+
+
+## Tools
 
 ### SQLMap
 
@@ -73,47 +113,3 @@ Example:
 # Search for tables containg "cred" in their name across DBMS
 mysql -u "http://www.example.com/?id=1" --search -T cred
 ```
-
-### MySQL
-
-Connect to a MySQL server
-
-```bash
-# Local service
-mysql -u acuity -pSuperStr00ng!
-
-# Remote service
-mysql -u acuity -p -h <IP> -P 3306
-```
-
-List all databases
-
-```sql
-show databases;
-```
-
-Select a database
-
-```sql
-use name_of_database;
-```
-
-List all tables in the active database
-
-```sql
-show tables;
-```
-
-List content of a table
-
-```sql
-# List all content
-select * from name_of_table;
-
-# Define a more specific selection
-select username, password from users where username = 'HTB';
-```
-
-### Microsoft SQL
-
-### PostgreSQL
