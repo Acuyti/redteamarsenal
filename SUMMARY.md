@@ -21,6 +21,7 @@
   * [SMB](attacking/services/smb.md)
   * [NFS](attacking/services/nfs.md)
   * [MYSQL](attacking/services/mysql.md)
+  * [SNMP](attacking/services/snmp.md)
 * [🔍 Host Discovery](attacking/host-discovery.md)
 * [Footprinting](attacking/footprinting.md)
 * [🪜 Pivoting & Portforwarding](attacking/pivoting-and-portforwarding.md)
