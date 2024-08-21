@@ -20,6 +20,7 @@
   * [SMTP](attacking/services/smtp.md)
   * [SMB](attacking/services/smb.md)
   * [NFS](attacking/services/nfs.md)
+  * [MYSQL](attacking/services/mysql.md)
 * [🔍 Host Discovery](attacking/host-discovery.md)
 * [Footprinting](attacking/footprinting.md)
 * [🪜 Pivoting & Portforwarding](attacking/pivoting-and-portforwarding.md)
