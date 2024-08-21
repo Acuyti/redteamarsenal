@@ -18,6 +18,7 @@
   * [Fuzzing](attacking/webservices/fuzzing.md)
 * [Services](attacking/services/README.md)
   * [SMTP](attacking/services/smtp.md)
+  * [SMB](attacking/services/smb.md)
   * [NFS](attacking/services/nfs.md)
 * [🔍 Host Discovery](attacking/host-discovery.md)
 * [Footprinting](attacking/footprinting.md)
