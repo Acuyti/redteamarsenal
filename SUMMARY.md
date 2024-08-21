@@ -20,7 +20,7 @@
   * [SMTP](attacking/services/smtp.md)
   * [SMB](attacking/services/smb.md)
   * [NFS](attacking/services/nfs.md)
-  * [MySQL](attacking/services/mysql.md)
+  * [Databases](attacking/services/databases.md)
   * [SNMP](attacking/services/snmp.md)
 * [🔍 Host Discovery](attacking/host-discovery.md)
 * [Footprinting](attacking/footprinting.md)
