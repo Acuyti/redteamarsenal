@@ -58,6 +58,8 @@ select username, password from users where username = 'HTB';
 
 
 
+***
+
 ## Tools
 
 ### SQLMap
@@ -112,4 +114,10 @@ Example:
 ```bash
 # Search for tables containg "cred" in their name across DBMS
 mysql -u "http://www.example.com/?id=1" --search -T cred
+```
+
+#### Dumping database-specific credentials
+
+```bash
+sqlmap -u "http://www.example.com/?id=1" --passwords --batch
 ```
