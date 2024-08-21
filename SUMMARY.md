@@ -16,6 +16,7 @@
   * [Command and Control](attacking/linux/command-and-control.md)
 * [🕸️ Webservices](attacking/webservices/README.md)
   * [Fuzzing](attacking/webservices/fuzzing.md)
+  * [SSRF](attacking/webservices/ssrf.md)
 * [Services](attacking/services/README.md)
   * [Databases](attacking/services/databases.md)
   * [SMB](attacking/services/smb.md)
