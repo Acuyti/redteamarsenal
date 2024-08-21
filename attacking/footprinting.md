@@ -31,7 +31,7 @@ dnsenum --dnsserver 203.0.113.50 --enum -p 0 -s 0 -o subdomains.txt -f /opt/usef
 
 ### SMB
 
-```
+```bash
 smbclient -N -L //203.0.113.50
 ```
 
@@ -50,4 +50,10 @@ https://github.com/CiscoCXSecurity/rdp-sec-check
 ```bash
 # Impacket Script Suite (https://github.com/fortra/impacket)
 /opt/scripts/wmiexec.py acu1ty:"SuperStr00ng!"@203.0.113.50 "hostname"
+```
+
+### IMAP/S
+
+```bash
+curl -k 'imaps://203.0.113.50' --user acuity:SuperStr00ng! -v
 ```
