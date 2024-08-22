@@ -6,13 +6,19 @@ description: >-
 
 # 🪜 Pivoting & Portforwarding
 
+## SSH
+
+```bash
+ssh -L 8080:acuity@203.0.113.50:8080 # Local portforward
+```
+
 ## ligolo-ng
 
 {% hint style="info" %}
 Official Link: [https://github.com/nicocha30/ligolo-ng](https://github.com/nicocha30/ligolo-ng)
 {% endhint %}
 
-#### &#x20;**Running Ligolo-ng proxy server**
+### &#x20;**Running Ligolo-ng proxy server**
 
 Start the _proxy_ server on your Command and Control (C2) server (default port 11601):
 
@@ -23,7 +29,7 @@ Start the _proxy_ server on your Command and Control (C2) server (default port 1
 ```
 {% endcode %}
 
-#### Using Ligolo-ng
+### Using Ligolo-ng
 
 Start the _agent_ on your target (victim) computer (no privileges are required!):
 
@@ -39,7 +45,7 @@ A session should appear on the _proxy_ server.
 INFO[0102] Agent joined. name=nchatelain@nworkstation remote="XX.XX.XX.XX:38000"
 ```
 
-Use the `session` command to select the _agent_.
+### Use the `session` command to select the _agent_.
 
 ```bash
 ligolo-ng » session 
@@ -67,14 +73,14 @@ Idx     Mét         MTU          État                Nom
 route add 192.168.0.0 mask 255.255.255.0 0.0.0.0 if [THE INTERFACE IDX]
 ```
 
-Start the tunnel on the proxy:
+### Start the tunnel on the proxy
 
 ```bash
 [Agent : nchatelain@nworkstation] » start_tunnel
 [Agent : nchatelain@nworkstation] » INFO[0690] Starting tunnel to nchatelain@nworkstation   
 ```
 
-#### Agent Binding/Listening
+### Agent Binding/Listening
 
 You can listen to ports on the _agent_ and _redirect_ connections to your control/proxy server.
 
