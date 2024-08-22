@@ -6,9 +6,9 @@ description: >-
 
 # Command and Control
 
-**ID: TA0011**
+<mark style="background-color:red;">This chapter is in-progress.</mark>
 
-[https://attack.mitre.org/tactics/TA0011/](https://attack.mitre.org/tactics/TA0011/)
+<mark style="color:blue;">Check the index on the right to navigate this page more easily.</mark>
 
 ## Havoc
 

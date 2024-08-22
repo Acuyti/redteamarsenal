@@ -6,9 +6,9 @@ description: >-
 
 # Privilege Escalation
 
-ID: TA0004
+<mark style="background-color:red;">This chapter is in-progress.</mark>
 
-{% embed url="https://attack.mitre.org/tactics/TA0004/" %}
+<mark style="color:blue;">Check the index on the right to navigate this page more easily.</mark>
 
 ## WinPEAS
 

@@ -6,6 +6,6 @@ description: >-
 
 # Reconnaissance
 
-ID: TA0043
+<mark style="background-color:red;">This chapter is in-progress.</mark>
 
-{% embed url="https://attack.mitre.org/tactics/TA0043/" %}
+<mark style="color:blue;">Check the index on the right to navigate this page more easily.</mark>

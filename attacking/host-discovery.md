@@ -1,10 +1,15 @@
 # 🔍 Host Discovery
 
-## Nmap
+## ICMP
 
-{% hint style="info" %}
-Official Link: [https://nmap.org](https://nmap.org)
-{% endhint %}
+```bash
+# Send a single echo request
+ping -c 1 199.66.11.4
+# Send echo requests to a range
+fping -g 199.66.11.0/24
+```
+
+## NMAP
 
 {% code overflow="wrap" %}
 ```bash
@@ -26,10 +31,6 @@ sudo nmap 10.129.2.28 -p 80 -sV --script vuln
 {% endcode %}
 
 ## Dnsrecon
-
-{% hint style="info" %}
-Official Link: [https://github.com/darkoperator/dnsrecon](https://github.com/darkoperator/dnsrecon)
-{% endhint %}
 
 <pre class="language-bash"><code class="lang-bash"><strong># Request PTR records of chosen subnet from specified DNS server
 </strong><strong>dnsrecon -d acuity.lab -n srvdns01.acuity.lab -r 192.168.1.0/24
