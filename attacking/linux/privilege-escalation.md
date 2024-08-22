@@ -6,11 +6,44 @@ description: >-
 
 # Privilege Escalation
 
-ID: TA0004
+## Manual Enumeration
 
-{% embed url="https://attack.mitre.org/tactics/TA0004/" %}
+### Find credentials / sensitive information
 
-## LinPEAS
+```bash
+cat /etc/passwd
+cat /etc/group
+cat /etc/shadow
+ls -alh /var/mail/
+```
+
+### File Permissions
+
+```bash
+find / -perm -1000 -type d 2>/dev/null   # Sticky bit - Only the owner of the directory or the owner of a file can delete or rename here.
+find / -perm -g=s -type f 2>/dev/null    # SGID (chmod 2000) - run as the group, not the user who started it.
+find / -perm -u=s -type f 2>/dev/null    # SUID (chmod 4000) - run as the owner, not the user who started it.
+
+find / -perm -g=s -o -perm -u=s -type f 2>/dev/null    # SGID or SUID
+for i in `locate -r "bin$"`; do find $i \( -perm -4000 -o -perm -2000 \) -type f 2>/dev/null; done    # Looks in 'common' places: /bin, /sbin, /usr/bin, /usr/sbin, /usr/local/bin, /usr/local/sbin and any other *bin, for SGID or SUID (Quicker search)
+
+# find starting at root (/), SGID or SUID, not Symbolic links, only 3 folders deep, list with more detail and hide any errors (e.g. permission denied)
+find / -perm -g=s -o -perm -4000 ! -type l -maxdepth 3 -exec ls -ld {} \; 2>/dev/null
+```
+
+#### User history
+
+```bash
+cat ~/.bash_history
+cat ~/.nano_history
+cat ~/.atftp_history
+cat ~/.mysql_history
+cat ~/.php_history
+```
+
+## Tools
+
+### LinPEAS
 
 {% hint style="info" %}
 Official Link: [https://github.com/peass-ng/PEASS-ng/tree/master](https://github.com/peass-ng/PEASS-ng/tree/master)
@@ -48,7 +81,7 @@ chmod +x linpeas_linux_amd64
 ./linpeas_linux_amd64
 ```
 
-Defense Evasion
+#### Defense Evasion
 
 ```bash
 #open-ssl encryption
