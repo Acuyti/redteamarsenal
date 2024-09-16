@@ -1,6 +1,6 @@
 # Table of contents
 
-* [💻 $ sudo init Red Team Arsenal](README.md)
+* [💻 $ pwnlab.sh --gui](README.md)
 
 ## ⚔️ Attacking
 
